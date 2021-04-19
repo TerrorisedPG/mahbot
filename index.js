@@ -24,7 +24,7 @@ client.once('ready', () => {
     memberCounter(client);
     client.user.setPresence({
         activity: {
-          name: "being an being",
+          name: "probably doing some more ntr idkk",
           type: "PLAYING"
         },
         status: "online"
