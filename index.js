@@ -22,9 +22,13 @@ for (const file of commandFiles) {
 client.once('ready', () => {
     console.log('Bot has been activated;');
     memberCounter(client);
-    client.user.setActivity(`.help`, {
-            type: "being an brave person",
-    });    
+    client.user.setPresence({
+        activity: {
+          name: "",
+          type: "PLAYING"
+        },
+        status: "being an person"
+      });
 });
 
 client.on('guildMemberAdd', guildMember => {
