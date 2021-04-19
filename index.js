@@ -24,10 +24,10 @@ client.once('ready', () => {
     memberCounter(client);
     client.user.setPresence({
         activity: {
-          name: "",
+          name: "being an being",
           type: "PLAYING"
         },
-        status: "being an person"
+        status: "online"
       });
 });
 
