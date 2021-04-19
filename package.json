@@ -9,9 +9,10 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3",
+    "fs": "*",
+    "images-scraper": "^6.3.0",
     "ms": "^2.1.3",
     "python": "^0.0.4"
   },
-  "devDependencies": {},
   "description": ""
 }
