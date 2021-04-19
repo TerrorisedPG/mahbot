@@ -46,6 +46,10 @@ client.on('message', message => {
         client.commands.get('unmute').execute(message, args, Discord);
     } else if (command === 'reactionroles') {
         client.commands.get('reactionroles').execute(message, args, Discord, client);
+    } else if (command === 'play') {
+        client.commands.get('play').execute(message, args);
+    } else if (command === 'leave') {
+        client.commands.get('leave').execute(message, args);
     }
 });
 
