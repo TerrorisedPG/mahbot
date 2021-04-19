@@ -19,12 +19,10 @@ for (const file of commandFiles) {
     client.commands.set(command.name, command);
 }
 
+
 client.once('ready', () => {
     console.log('Bot has been activated;');
     memberCounter(client);
-    client.user.setActivity(`.help`, {
-            type: "being an brave person",
-    });    
 });
 
 client.on('guildMemberAdd', guildMember => {
